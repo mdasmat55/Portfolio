@@ -28,14 +28,15 @@
       <div class="container hero-inner">
         <div class="hero-text">
           <h1 class="reveal">Hello, I'm <span>Md Asmat Ali</span></h1>
-          <p class="reveal delay">Frontend Developer focused on clean interfaces and modern UX, with a strong foundation in Data Structures and Algorithms using C++.</p>
+          <p class="reveal delay">Aspiring Full-Stack Developer focused on clean interfaces and modern UX, currently working with Node.js, Express, React,
+          and MySQL, with a strong foundation in Data Structures and Algorithms using C++.</p>
           <div class="cta reveal delay-more">
             <a class="btn" href="#projects">View Projects</a>
             <a class="btn ghost" href="#contact">Get in Touch</a>
           </div>
         </div>
         <div class="hero-photo reveal-card">
-          <img src="myphoto.png" alt="Md Asmat Ali">
+          <img src="./image/Untitled.png" alt="">
         </div>
 
       </div>
@@ -45,12 +46,18 @@
       <div class="container grid about-grid">
         <div class="card reveal">
           <h2>About</h2>
-          <p>I'm a Frontend Developer who enjoys building clean, responsive, and user-friendly websites using HTML, CSS, and
-          JavaScript. I'm currently learning React and improving my DSA skills in C++..</p>
+          <p>Aspiring Full-Stack Developer with experience in building responsive user interfaces using HTML, CSS, and JavaScript.
+          Currently working with Node.js, Express, and MySQL while learning React, and strengthening problem-solving skills
+          through Data Structures and Algorithms using C++.</p>
         </div>
         <div class="card reveal delay">
           <h2>Work</h2>
-          <p>Looking for a Frontend Developer role. Comfortable building responsive, accessible websites.</p>
+        <p>
+          Actively seeking a Frontend / Full-Stack Internship. Currently working with
+          Node.js, Express, React, and MySQL, and building projects focused on
+          responsive UI, basic backend APIs, and real-world use cases.
+        </p>
+
         </div>
       </div>
     </section>
@@ -59,12 +66,12 @@
       <div class="container">
         <h2 class="section-title reveal">Skills</h2>
         <div class="skills-grid">
-          <div class="skill reveal">HTML</div>
-          <div class="skill reveal delay">CSS</div>
-          <div class="skill reveal delay-more">JavaScript</div>
-          <div class="skill reveal delay">Responsive Design</div>
-          <div class="skill reveal delay-more">Accessibility</div>
-          <div class="skill reveal">Performance</div>
+        <div class="skill reveal delay">React</div>
+        <div class="skill reveal delay-more">Node.js</div>
+        <div class="skill reveal delay">Express.js</div>
+        <div class="skill reveal delay-more">MySQL</div>
+        <div class="skill reveal">DSA & Problem Solving (C++)</div>
+
         </div>
       </div>
     </section>
@@ -72,52 +79,68 @@
     <section id="projects" class="section">
       <div class="container">
         <h2 class="section-title reveal">Projects</h2>
+    
         <div class="projects-grid">
+    
+          <!-- Project 1 -->
           <div class="project-card reveal">
             <div class="project-body">
-              <h3>Project One</h3>
-              <p>A modern responsive portfolio website built using HTML, CSS, and JavaScript, featuring smooth animations, clean UI, and
-              sections like About, Skills, Projects, and Contact.</p>
+              <h3>Personal Portfolio Website</h3>
+              <p>
+                Designed and developed a responsive portfolio website using
+                HTML, CSS, and JavaScript to showcase skills, projects, and contact information.
+                Implemented smooth animations, mobile-friendly navigation, and clean UI principles.
+              </p>
+              <ul>
+                <li>Responsive layout using CSS Flexbox & media queries</li>
+                <li>Interactive navigation menu using JavaScript</li>
+                <li>Optimized UI for performance and accessibility</li>
+              </ul>
             </div>
             <div class="project-actions">
-              <a class="link" href="#">Live</a>
-              <a class="link" href="#">Code</a>
+              <a class="link" href="https://mdasmat55.github.io/my-website/" target="_blank">Live</a>
+              <a class="link" href="https://github.com/mdasmat55" target="_blank">Code</a>
             </div>
           </div>
+    
+          <!-- Project 2 -->
           <div class="project-card reveal delay">
             <div class="project-body">
-              <h3>Project Two</h3>
-              <p>Working on a project with three team members to build an e-commerce website for pet food.</p>
+              <h3>Pet Food E-Commerce Website <span>(Ongoing)</span></h3>
+              <p>
+                Working in a team of three to build a full-stack e-commerce web application
+                for pet food products using Node.js, Express, and MySQL.
+              </p>
+              <ul>
+                <li>Building REST APIs for products, users, and orders</li>
+                <li>Designing relational database schema using MySQL</li>
+                <li>Developing frontend pages for product listing and cart</li>
+              </ul>
             </div>
             <div class="project-actions">
-             
+              <span class="link disabled">In Progress</span>
             </div>
           </div>
+    
         </div>
       </div>
     </section>
-    
-<section id="contact" class="section">
-  <div class="container">
-    <h2 class="section-title reveal">Contact</h2>
 
-    <form id="contact-form" class="contact-form reveal delay"
-          action="https://api.web3forms.com/submit" method="POST">
 
-      <input type="hidden" name="access_key" value="85686607-1596-4fec-b778-c7e577ec2869">
-
-      <input type="text" name="name" placeholder="Your name" required />
-      <input type="email" name="email" placeholder="Your email" required />
-      <textarea name="message" rows="5" placeholder="Message" required></textarea>
-
-      <div class="form-actions">
-        <button class="btn" type="submit">Send Message</button>
-        <button class="btn ghost" type="reset">Reset</button>
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Contact</h2>
+        <form id="contact-form" class="contact-form reveal delay">
+          <input type="text" name="name" placeholder="Your name" required />
+          <input type="email" name="email" placeholder="Your email" required />
+          <textarea name="message" rows="5" placeholder="Message"></textarea>
+          <div class="form-actions">
+            <button class="btn" type="submit">Send Message</button>
+            <button class="btn ghost" type="reset">Reset</button>
+          </div>
+        </form>
       </div>
-    </form>
-  </div>
-</section>
-
+    </section>
   </main>
 
   <footer class="site-footer">
@@ -133,10 +156,4 @@
   <script src="script.js"></script>
 </body>
 
-
 </html>
-
-
-
-
-
